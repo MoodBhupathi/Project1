@@ -1,0 +1,5 @@
+runtime: python39
+entrypoint: python app.py
+
+automatic_scaling:
+  max_instances: 5  # or any value you prefer
